@@ -8,18 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		7808DCD82B39EAD200302A22 /* AvdManagerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7808DCD72B39EAD200302A22 /* AvdManagerApp.swift */; };
-		7808DCDA2B39EAD200302A22 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7808DCD92B39EAD200302A22 /* ContentView.swift */; };
 		7808DCDC2B39EAD300302A22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7808DCDB2B39EAD300302A22 /* Assets.xcassets */; };
 		7808DCDF2B39EAD300302A22 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7808DCDE2B39EAD300302A22 /* Preview Assets.xcassets */; };
+		7808DCE72B39EDF600302A22 /* AvdManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7808DCE62B39EDF600302A22 /* AvdManager.swift */; };
+		7808DCE92B39EE0700302A22 /* AvdInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7808DCE82B39EE0700302A22 /* AvdInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7808DCD42B39EAD200302A22 /* AvdManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AvdManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7808DCD72B39EAD200302A22 /* AvdManagerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvdManagerApp.swift; sourceTree = "<group>"; };
-		7808DCD92B39EAD200302A22 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7808DCDB2B39EAD300302A22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7808DCDE2B39EAD300302A22 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7808DCE02B39EAD300302A22 /* AvdManager.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AvdManager.entitlements; sourceTree = "<group>"; };
+		7808DCE62B39EDF600302A22 /* AvdManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvdManager.swift; sourceTree = "<group>"; };
+		7808DCE82B39EE0700302A22 /* AvdInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvdInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +55,8 @@
 			isa = PBXGroup;
 			children = (
 				7808DCD72B39EAD200302A22 /* AvdManagerApp.swift */,
-				7808DCD92B39EAD200302A22 /* ContentView.swift */,
+				7808DCE62B39EDF600302A22 /* AvdManager.swift */,
+				7808DCE82B39EE0700302A22 /* AvdInfo.swift */,
 				7808DCDB2B39EAD300302A22 /* Assets.xcassets */,
 				7808DCE02B39EAD300302A22 /* AvdManager.entitlements */,
 				7808DCDD2B39EAD300302A22 /* Preview Content */,
@@ -139,8 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7808DCDA2B39EAD200302A22 /* ContentView.swift in Sources */,
 				7808DCD82B39EAD200302A22 /* AvdManagerApp.swift in Sources */,
+				7808DCE72B39EDF600302A22 /* AvdManager.swift in Sources */,
+				7808DCE92B39EE0700302A22 /* AvdInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +281,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"AvdManager/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +307,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"AvdManager/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
